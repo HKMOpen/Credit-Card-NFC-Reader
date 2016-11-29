@@ -1,15 +1,15 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+apply from: 'bintray_3_4.gradle'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "24.0.2"
     defaultConfig {
         multiDexEnabled true
         minSdkVersion 16
-        targetSdkVersion 22
-        versionCode 2
-        versionName "1.0.2"
+        targetSdkVersion 24
+        versionCode project.VERSION_CODE as int
+        versionName project.VERSION_NAME
     }
     buildTypes {
         release {

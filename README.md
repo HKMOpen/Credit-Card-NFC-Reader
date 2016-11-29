@@ -22,7 +22,7 @@ This library helps developer to read data from credit card: card number, expired
 ##### Add the dependencies to your gradle file:
 ```sh
     dependencies {
-        compile 'com.github.pro100svitlo:creditCardNfcReader:1.0.2'
+        compile 'com.hkm.tech:nfc-creditcard:1.1.0'
     }
 ```
 
@@ -146,6 +146,9 @@ This is the main callback for managing:
 ```
 
 ### Updates
+* v.1.1.0
+    1. update package to using build platform 24.2.1
+
 * v.1.0.0
     1. Add Ingdirect Bank visa card (Australian Bank)
     2. Add default card type as <b>UNKNOWN</b>. If you receive such card type, please [see this](#questions-and-help);

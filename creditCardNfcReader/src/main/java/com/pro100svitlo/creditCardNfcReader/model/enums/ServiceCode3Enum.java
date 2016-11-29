@@ -18,7 +18,7 @@ public enum ServiceCode3Enum implements IKeyEnum {
 	private final String allowedServices;
 	private final String pinRequirements;
 
-	private ServiceCode3Enum(final int value, final String allowedServices, final String pinRequirements) {
+	ServiceCode3Enum(final int value, final String allowedServices, final String pinRequirements) {
 		this.value = value;
 		this.allowedServices = allowedServices;
 		this.pinRequirements = pinRequirements;
