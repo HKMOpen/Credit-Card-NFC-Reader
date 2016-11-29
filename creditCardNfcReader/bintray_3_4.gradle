@@ -4,7 +4,7 @@ publish {
     groupId = 'com.hkm.tech'
     artifactId = 'nfc-creditcard'
     version = project.VERSION_NAME
-    uploadName = 'frame-imageview'
+    uploadName = 'nfc-creditcard'
     description = "The adjustable frame to decorate the image view"
     website = 'https://github.com/HKMOpen/Credit-Card-NFC-Reader'
     autoPublish = true
