@@ -20,9 +20,9 @@ This library helps developer to read data from credit card: card number, expired
 
 # Usage
 ##### Add the dependencies to your gradle file:
-```sh
+```gradle
     dependencies {
-        compile 'com.hkm.tech:nfc-creditcard:1.1.0'
+        compile 'com.hkm.tech:nfc-creditcard:1.1.1'
     }
 ```
 
@@ -55,7 +55,7 @@ This library helps developer to read data from credit card: card number, expired
 ```
 
 ##### Inside your activity or fragment:
-```sh
+```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
     ...
@@ -111,7 +111,7 @@ That's pretty much all what you need to start the work!
 
 This is the main callback for managing:
  
-```sh
+```java
     @Override
     public void startNfcReadCard() {
         //notify user that scannig start

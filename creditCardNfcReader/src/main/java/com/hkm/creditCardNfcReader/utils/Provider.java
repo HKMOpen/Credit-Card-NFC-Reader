@@ -10,19 +10,12 @@ import com.hkm.creditCardNfcReader.parser.IProvider;
 import java.io.IOException;
 
 public class Provider implements IProvider{
-
-
     private static final String TAG = Provider.class.getName();
-
     private StringBuffer log = new StringBuffer();
-
     private IsoDep mTagCom;
-
     public void setmTagCom(final IsoDep mTagCom) {
         this.mTagCom = mTagCom;
     }
-
-
     public StringBuffer getLog() {
         return log;
     }

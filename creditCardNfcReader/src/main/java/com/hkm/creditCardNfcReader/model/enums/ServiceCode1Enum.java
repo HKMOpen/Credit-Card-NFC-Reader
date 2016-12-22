@@ -22,7 +22,7 @@ public enum ServiceCode1Enum implements IKeyEnum {
 	 * @param interchange
 	 * @param technology
 	 */
-	private ServiceCode1Enum(final int value, final String interchange, final String technology) {
+	ServiceCode1Enum(final int value, final String interchange, final String technology) {
 		this.value = value;
 		this.interchange = interchange;
 		this.technology = technology;

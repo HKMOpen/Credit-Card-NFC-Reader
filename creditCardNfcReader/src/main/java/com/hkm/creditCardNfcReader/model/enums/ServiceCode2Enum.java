@@ -12,7 +12,7 @@ public enum ServiceCode2Enum implements IKeyEnum {
 	private final int value;
 	private final String authorizationProcessing;
 
-	private ServiceCode2Enum(final int value, final String authorizationProcessing) {
+	ServiceCode2Enum(final int value, final String authorizationProcessing) {
 		this.value = value;
 		this.authorizationProcessing = authorizationProcessing;
 	}
